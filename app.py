@@ -8,8 +8,8 @@ app = Flask(__name__)
 chat_history = []
 
 # Replace with your real API keys
-GROQ_API_KEY = "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"
-MURF_API_KEY = "ap2_3eefbc94-63bb-4c64-a0df-e8b04f3b8f3a"
+GROQ_API_KEY = "key"
+MURF_API_KEY = "key"
 
 groq_client = Groq(api_key=GROQ_API_KEY)
 murf_client = Murf(api_key=MURF_API_KEY)
